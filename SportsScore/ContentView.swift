@@ -8,14 +8,30 @@
 import SwiftUI
 
 struct ContentView: View {
+    @State private var currentScore = 0
+    
     var body: some View {
         VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundColor(.accentColor)
-            Text("Hello, world!")
+           Text("Score Tracker")
+                .font(.largeTitle)
+                .padding()
+            Text("Current Score: \(currentScore)")
+                .font(.title)
+                .padding()
+            Button(action : {
+                updateScore()
+            }) {
+                Text("Update Score")
+                    .font(.headline)
+                    .padding()
+            }
         }
         .padding()
+        
+    }
+    
+    private func updateScore() {
+        currentScore += 1
     }
 }
 
