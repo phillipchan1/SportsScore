@@ -14,6 +14,15 @@
 		0AF1CC532A3BB61F00BE828E /* SportsScoreTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AF1CC522A3BB61F00BE828E /* SportsScoreTests.swift */; };
 		0AF1CC5D2A3BB61F00BE828E /* SportsScoreUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AF1CC5C2A3BB61F00BE828E /* SportsScoreUITests.swift */; };
 		0AF1CC5F2A3BB61F00BE828E /* SportsScoreUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AF1CC5E2A3BB61F00BE828E /* SportsScoreUITestsLaunchTests.swift */; };
+		0AF1CC722A3CC94E00BE828E /* WidgetKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0AF1CC712A3CC94E00BE828E /* WidgetKit.framework */; };
+		0AF1CC742A3CC94E00BE828E /* SwiftUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0AF1CC732A3CC94E00BE828E /* SwiftUI.framework */; };
+		0AF1CC772A3CC94E00BE828E /* SportsScoreWidgetBundle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AF1CC762A3CC94E00BE828E /* SportsScoreWidgetBundle.swift */; };
+		0AF1CC792A3CC94E00BE828E /* SportsScoreWidgetLiveActivity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AF1CC782A3CC94E00BE828E /* SportsScoreWidgetLiveActivity.swift */; };
+		0AF1CC7B2A3CC94E00BE828E /* SportsScoreWidget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AF1CC7A2A3CC94E00BE828E /* SportsScoreWidget.swift */; };
+		0AF1CC7E2A3CC95100BE828E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0AF1CC7D2A3CC95100BE828E /* Assets.xcassets */; };
+		0AF1CC802A3CC95100BE828E /* SportsScoreWidget.intentdefinition in Sources */ = {isa = PBXBuildFile; fileRef = 0AF1CC7C2A3CC94F00BE828E /* SportsScoreWidget.intentdefinition */; };
+		0AF1CC812A3CC95100BE828E /* SportsScoreWidget.intentdefinition in Sources */ = {isa = PBXBuildFile; fileRef = 0AF1CC7C2A3CC94F00BE828E /* SportsScoreWidget.intentdefinition */; };
+		0AF1CC842A3CC95100BE828E /* SportsScoreWidgetExtension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 0AF1CC6F2A3CC94E00BE828E /* SportsScoreWidgetExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -31,7 +40,28 @@
 			remoteGlobalIDString = 0AF1CC3D2A3BB61E00BE828E;
 			remoteInfo = SportsScore;
 		};
+		0AF1CC822A3CC95100BE828E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0AF1CC362A3BB61E00BE828E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0AF1CC6E2A3CC94E00BE828E;
+			remoteInfo = SportsScoreWidgetExtension;
+		};
 /* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		0AF1CC882A3CC95100BE828E /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				0AF1CC842A3CC95100BE828E /* SportsScoreWidgetExtension.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		0AF1CC3E2A3BB61E00BE828E /* SportsScore.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SportsScore.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -44,6 +74,15 @@
 		0AF1CC582A3BB61F00BE828E /* SportsScoreUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SportsScoreUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0AF1CC5C2A3BB61F00BE828E /* SportsScoreUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SportsScoreUITests.swift; sourceTree = "<group>"; };
 		0AF1CC5E2A3BB61F00BE828E /* SportsScoreUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SportsScoreUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		0AF1CC6F2A3CC94E00BE828E /* SportsScoreWidgetExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = SportsScoreWidgetExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		0AF1CC712A3CC94E00BE828E /* WidgetKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WidgetKit.framework; path = System/Library/Frameworks/WidgetKit.framework; sourceTree = SDKROOT; };
+		0AF1CC732A3CC94E00BE828E /* SwiftUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftUI.framework; path = System/Library/Frameworks/SwiftUI.framework; sourceTree = SDKROOT; };
+		0AF1CC762A3CC94E00BE828E /* SportsScoreWidgetBundle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SportsScoreWidgetBundle.swift; sourceTree = "<group>"; };
+		0AF1CC782A3CC94E00BE828E /* SportsScoreWidgetLiveActivity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SportsScoreWidgetLiveActivity.swift; sourceTree = "<group>"; };
+		0AF1CC7A2A3CC94E00BE828E /* SportsScoreWidget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SportsScoreWidget.swift; sourceTree = "<group>"; };
+		0AF1CC7C2A3CC94F00BE828E /* SportsScoreWidget.intentdefinition */ = {isa = PBXFileReference; lastKnownFileType = file.intentdefinition; path = SportsScoreWidget.intentdefinition; sourceTree = "<group>"; };
+		0AF1CC7D2A3CC95100BE828E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0AF1CC7F2A3CC95100BE828E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,6 +107,15 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		0AF1CC6C2A3CC94E00BE828E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0AF1CC742A3CC94E00BE828E /* SwiftUI.framework in Frameworks */,
+				0AF1CC722A3CC94E00BE828E /* WidgetKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -77,6 +125,8 @@
 				0AF1CC402A3BB61E00BE828E /* SportsScore */,
 				0AF1CC512A3BB61F00BE828E /* SportsScoreTests */,
 				0AF1CC5B2A3BB61F00BE828E /* SportsScoreUITests */,
+				0AF1CC752A3CC94E00BE828E /* SportsScoreWidget */,
+				0AF1CC702A3CC94E00BE828E /* Frameworks */,
 				0AF1CC3F2A3BB61E00BE828E /* Products */,
 			);
 			sourceTree = "<group>";
@@ -87,6 +137,7 @@
 				0AF1CC3E2A3BB61E00BE828E /* SportsScore.app */,
 				0AF1CC4E2A3BB61F00BE828E /* SportsScoreTests.xctest */,
 				0AF1CC582A3BB61F00BE828E /* SportsScoreUITests.xctest */,
+				0AF1CC6F2A3CC94E00BE828E /* SportsScoreWidgetExtension.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -127,6 +178,28 @@
 			path = SportsScoreUITests;
 			sourceTree = "<group>";
 		};
+		0AF1CC702A3CC94E00BE828E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0AF1CC712A3CC94E00BE828E /* WidgetKit.framework */,
+				0AF1CC732A3CC94E00BE828E /* SwiftUI.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		0AF1CC752A3CC94E00BE828E /* SportsScoreWidget */ = {
+			isa = PBXGroup;
+			children = (
+				0AF1CC762A3CC94E00BE828E /* SportsScoreWidgetBundle.swift */,
+				0AF1CC782A3CC94E00BE828E /* SportsScoreWidgetLiveActivity.swift */,
+				0AF1CC7A2A3CC94E00BE828E /* SportsScoreWidget.swift */,
+				0AF1CC7C2A3CC94F00BE828E /* SportsScoreWidget.intentdefinition */,
+				0AF1CC7D2A3CC95100BE828E /* Assets.xcassets */,
+				0AF1CC7F2A3CC95100BE828E /* Info.plist */,
+			);
+			path = SportsScoreWidget;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -137,10 +210,12 @@
 				0AF1CC3A2A3BB61E00BE828E /* Sources */,
 				0AF1CC3B2A3BB61E00BE828E /* Frameworks */,
 				0AF1CC3C2A3BB61E00BE828E /* Resources */,
+				0AF1CC882A3CC95100BE828E /* Embed Foundation Extensions */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				0AF1CC832A3CC95100BE828E /* PBXTargetDependency */,
 			);
 			name = SportsScore;
 			productName = SportsScore;
@@ -183,6 +258,23 @@
 			productReference = 0AF1CC582A3BB61F00BE828E /* SportsScoreUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
+		0AF1CC6E2A3CC94E00BE828E /* SportsScoreWidgetExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0AF1CC852A3CC95100BE828E /* Build configuration list for PBXNativeTarget "SportsScoreWidgetExtension" */;
+			buildPhases = (
+				0AF1CC6B2A3CC94E00BE828E /* Sources */,
+				0AF1CC6C2A3CC94E00BE828E /* Frameworks */,
+				0AF1CC6D2A3CC94E00BE828E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SportsScoreWidgetExtension;
+			productName = SportsScoreWidgetExtension;
+			productReference = 0AF1CC6F2A3CC94E00BE828E /* SportsScoreWidgetExtension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -204,6 +296,9 @@
 						CreatedOnToolsVersion = 14.3;
 						TestTargetID = 0AF1CC3D2A3BB61E00BE828E;
 					};
+					0AF1CC6E2A3CC94E00BE828E = {
+						CreatedOnToolsVersion = 14.3;
+					};
 				};
 			};
 			buildConfigurationList = 0AF1CC392A3BB61E00BE828E /* Build configuration list for PBXProject "SportsScore" */;
@@ -222,6 +317,7 @@
 				0AF1CC3D2A3BB61E00BE828E /* SportsScore */,
 				0AF1CC4D2A3BB61F00BE828E /* SportsScoreTests */,
 				0AF1CC572A3BB61F00BE828E /* SportsScoreUITests */,
+				0AF1CC6E2A3CC94E00BE828E /* SportsScoreWidgetExtension */,
 			);
 		};
 /* End PBXProject section */
@@ -250,6 +346,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		0AF1CC6D2A3CC94E00BE828E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0AF1CC7E2A3CC95100BE828E /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -259,6 +363,7 @@
 			files = (
 				0AF1CC442A3BB61E00BE828E /* ContentView.swift in Sources */,
 				0AF1CC422A3BB61E00BE828E /* SportsScoreApp.swift in Sources */,
+				0AF1CC812A3CC95100BE828E /* SportsScoreWidget.intentdefinition in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -279,6 +384,17 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		0AF1CC6B2A3CC94E00BE828E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0AF1CC792A3CC94E00BE828E /* SportsScoreWidgetLiveActivity.swift in Sources */,
+				0AF1CC772A3CC94E00BE828E /* SportsScoreWidgetBundle.swift in Sources */,
+				0AF1CC802A3CC95100BE828E /* SportsScoreWidget.intentdefinition in Sources */,
+				0AF1CC7B2A3CC94E00BE828E /* SportsScoreWidget.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -291,6 +407,11 @@
 			isa = PBXTargetDependency;
 			target = 0AF1CC3D2A3BB61E00BE828E /* SportsScore */;
 			targetProxy = 0AF1CC592A3BB61F00BE828E /* PBXContainerItemProxy */;
+		};
+		0AF1CC832A3CC95100BE828E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0AF1CC6E2A3CC94E00BE828E /* SportsScoreWidgetExtension */;
+			targetProxy = 0AF1CC822A3CC95100BE828E /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -412,6 +533,7 @@
 		0AF1CC632A3BB61F00BE828E /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
@@ -441,6 +563,7 @@
 		0AF1CC642A3BB61F00BE828E /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
@@ -543,6 +666,60 @@
 			};
 			name = Release;
 		};
+		0AF1CC862A3CC95100BE828E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4629AQ24Z2;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SportsScoreWidget/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = SportsScoreWidget;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = philchan.SportsScore.SportsScoreWidget;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0AF1CC872A3CC95100BE828E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4629AQ24Z2;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SportsScoreWidget/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = SportsScoreWidget;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = philchan.SportsScore.SportsScoreWidget;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -578,6 +755,15 @@
 			buildConfigurations = (
 				0AF1CC692A3BB61F00BE828E /* Debug */,
 				0AF1CC6A2A3BB61F00BE828E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0AF1CC852A3CC95100BE828E /* Build configuration list for PBXNativeTarget "SportsScoreWidgetExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0AF1CC862A3CC95100BE828E /* Debug */,
+				0AF1CC872A3CC95100BE828E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
