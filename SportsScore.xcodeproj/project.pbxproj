@@ -64,6 +64,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		0AA400182A3E7C1B0028CFBE /* SportsScore.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = SportsScore.entitlements; sourceTree = "<group>"; };
+		0AA400192A3E7DA00028CFBE /* SportsScoreWidgetExtension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = SportsScoreWidgetExtension.entitlements; sourceTree = "<group>"; };
 		0AF1CC3E2A3BB61E00BE828E /* SportsScore.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SportsScore.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0AF1CC412A3BB61E00BE828E /* SportsScoreApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SportsScoreApp.swift; sourceTree = "<group>"; };
 		0AF1CC432A3BB61E00BE828E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -122,6 +124,7 @@
 		0AF1CC352A3BB61E00BE828E = {
 			isa = PBXGroup;
 			children = (
+				0AA400192A3E7DA00028CFBE /* SportsScoreWidgetExtension.entitlements */,
 				0AF1CC402A3BB61E00BE828E /* SportsScore */,
 				0AF1CC512A3BB61F00BE828E /* SportsScoreTests */,
 				0AF1CC5B2A3BB61F00BE828E /* SportsScoreUITests */,
@@ -145,6 +148,7 @@
 		0AF1CC402A3BB61E00BE828E /* SportsScore */ = {
 			isa = PBXGroup;
 			children = (
+				0AA400182A3E7C1B0028CFBE /* SportsScore.entitlements */,
 				0AF1CC412A3BB61E00BE828E /* SportsScoreApp.swift */,
 				0AF1CC432A3BB61E00BE828E /* ContentView.swift */,
 				0AF1CC452A3BB61F00BE828E /* Assets.xcassets */,
@@ -536,6 +540,7 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = SportsScore/SportsScore.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"SportsScore/Preview Content\"";
@@ -566,6 +571,7 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = SportsScore/SportsScore.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"SportsScore/Preview Content\"";
@@ -671,6 +677,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_ENTITLEMENTS = SportsScoreWidgetExtension.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 4629AQ24Z2;
@@ -698,6 +705,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_ENTITLEMENTS = SportsScoreWidgetExtension.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 4629AQ24Z2;
